@@ -12,8 +12,15 @@ Algoritmo TP3_Ejercicio1
 		
 		Si contador > 10 Entonces
 			numero_multiplicando = numero_multiplicando + 1
-				
-			contador = 0
+			
+			
+			Si numero_multiplicando > 10 Entonces
+				contador = 10
+			SiNo
+				contador = 0
+			FinSi
+			
+			
 		SiNo
 			Multiplicacion = contador * numero_multiplicando
 			Escribir contador "x" numero_multiplicando "=" Multiplicacion
